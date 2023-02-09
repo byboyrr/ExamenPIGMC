@@ -1,0 +1,60 @@
+.form {
+    width: 500px;
+    max-width: 100%;
+    padding: 20px;
+    background-color: #f2f2f2;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px #ccc;
+    margin: 20px auto;
+    text-align: center;
+    margin-top: 50px;
+  }
+  
+  .formTitle {
+    margin-bottom: 20px;
+    font-size: 32px;
+    color: #333;
+  }
+  
+  .formGroup {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+    text-align: left;
+  }
+  
+  .formLabel {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 18px;
+    color: #333;
+  }
+  
+  .formInput,
+  .formTextarea {
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 0px 0px 5px #ccc;
+    margin-bottom: 20px;
+  }
+  
+  .formTextarea {
+    height: 150px;
+    resize: none;
+  }
+  
+  .formButton {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .formButton:hover {
+    background-color: #555;
+  }
