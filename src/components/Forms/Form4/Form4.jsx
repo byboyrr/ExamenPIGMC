@@ -9,9 +9,6 @@ const ContactForm = () => {
   const handleSubmit = (event) => {
     event.preventDefault();
     // Submit the form data to the server or do something else
-    console.log(`Name: ${name}`);
-    console.log(`Email: ${email}`);
-    console.log(`Message: ${message}`);
   };
 
   return (
